@@ -3,7 +3,8 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Aboutme from "../My Info/Aboutme";
 import Profesummary from "../My Prof Summary/Profesummary";
 import Experience from "../My Experience/Profexp";
-import Myskills from "../My Skills/Myskills";
+// import Myskills from "../My Skills/Myskills";
+import Myskills from '../My Skills/Myskills'
 import Education from "../Education/Education";
 import Projects from "../My Project Exp/Projectexp";
 import "./Navbar.css";

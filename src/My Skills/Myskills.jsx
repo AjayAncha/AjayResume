@@ -1,5 +1,5 @@
 import React from "react";
-import "./Myskills.css"; // Importing a CSS file for styling
+import "./Myskills.css";
 
 export default function Myskills() {
   return (
