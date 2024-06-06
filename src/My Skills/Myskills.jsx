@@ -1,23 +1,26 @@
-import React, { useState, useEffect } from "react";
-import "./Myskills.css";
-import  skillsData  from "./Myskills.js";
+import React from "react";
+import "./Myskills.css"; // Importing a CSS file for styling
 
 export default function Myskills() {
-  const [skills, setSkills] = useState([]);
- console.log(skillsData?.skills)
-  useEffect(() => {
-    setSkills(skillsData?.skills); // Set the skills data from the imported module
-  }, []);
-     console.log(skills)
   return (
     <div className="skills-container">
       <h2>Technical Skills</h2>
-      {skills.map((skillSection, index) => (
-        <div key={index} className="skill-section">
-          <h3>{skillSection.category}</h3>
-          <p>{skillSection.items.join(", ")}</p>
-        </div>
-      ))}
+      <div className="skill-section">
+        <h3>Web Development</h3>
+        <p>HTML, CSS, JavaScript, Freemarker</p>
+      </div>
+      <div className="skill-section">
+        <h3>Frameworks</h3>
+        <p>React, Angular, Bootstrap</p>
+      </div>
+      <div className="skill-section">
+        <h3>Tools and Technologies</h3>
+        <p>Git, Webpack</p>
+      </div>
+      <div className="skill-section">
+        <h3>Basic Knowledge:</h3>
+        <p>MySQL, Postman</p>
+      </div>
     </div>
   );
 }
