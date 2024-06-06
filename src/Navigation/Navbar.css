@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 200px;
+    background-color: #333;
+    overflow-x: hidden;
+    transition: 0.3s;
+    padding-top: 20px;
+    transform: translateX(-200px); /* Hide the navbar by default */
+  }
+  
+  .navbar.open {
+    transform: translateX(0); /* Show the navbar when 'open' class is added */
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .navbar li {
+    padding: 8px 16px;
+    text-align: center;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    display: block;
+  }
+  
+  .navbar a:hover {
+    background-color: #575757;
+  }
+  
+  .menu-button {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  .menu-button:hover {
+    background-color: #575757;
+  }
+  

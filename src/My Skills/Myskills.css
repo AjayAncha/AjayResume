@@ -1,0 +1,30 @@
+.skills-container {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f4f8;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .skills-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .skill-section {
+    margin-bottom: 20px;
+  }
+  
+  .skill-section h3 {
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .skill-section p {
+    color: #777;
+    margin: 0;
+  }
+  

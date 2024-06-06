@@ -1,0 +1,21 @@
+{
+    "skills": [
+      {
+        "category": "Web Development",
+        "items": ["HTML", "CSS", "JavaScript", "Freemarker"]
+      },
+      {
+        "category": "Frameworks",
+        "items": ["React", "Angular", "Bootstrap"]
+      },
+      {
+        "category": "Tools and Technologies",
+        "items": ["Git", "Webpack"]
+      },
+      {
+        "category": "Basic Knowledge",
+        "items": ["MySQL", "Postman"]
+      }
+    ]
+  }
+  
